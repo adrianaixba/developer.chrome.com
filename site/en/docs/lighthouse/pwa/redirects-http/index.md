@@ -7,6 +7,10 @@ date: 2019-05-04
 updated: 2020-06-10
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 All sites should be protected with HTTPS.
 See the [Does not use HTTPS](/docs/lighthouse/pwa/is-on-https/) post to learn why
 and how to set up HTTPS on your server.

@@ -7,6 +7,10 @@ date: 2019-05-04
 updated: 2023-03-16
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 A custom splash screen makes your [Progressive Web App (PWA)](https://web.dev/explore/progressive-web-apps#make-it-installable) feel more like an
 app built for that device. By default, when a user launches your PWA from the home screen,
 Android displays a white screen until the PWA is ready.

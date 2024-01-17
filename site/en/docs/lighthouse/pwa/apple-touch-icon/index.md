@@ -9,6 +9,10 @@ updated: 2023-03-24
 is_outdated: true
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 When iOS Safari users add [Progressive Web Apps (PWAs)](https://web.dev/explore/progressive-web-apps#make-it-installable) to
 their home screens, the icon that appears is called the *Apple touch icon*.
 You can specify what icon your app should use by including a

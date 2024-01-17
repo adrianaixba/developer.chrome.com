@@ -7,6 +7,10 @@ date: 2019-05-04
 updated: 2019-09-19
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 Ensure individual pages and views in your
 [Progressive Web App (PWA)](https://web.dev/explore/progressive-web-apps#make-it-installable)
 are deep linkable via URL and that each URL is unique

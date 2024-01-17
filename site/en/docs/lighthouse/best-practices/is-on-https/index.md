@@ -7,10 +7,6 @@ date: 2019-05-04
 updated: 2020-04-29
 ---
 
-{% Aside 'caution' %}
-PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
-{% endAside %}
-
 All websites should be protected with HTTPS, even ones that don't handle
 sensitive data. HTTPS prevents intruders from tampering with or passively
 listening in on the communications between your site and your users.

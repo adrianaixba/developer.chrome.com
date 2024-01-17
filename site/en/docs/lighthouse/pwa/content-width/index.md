@@ -7,6 +7,10 @@ date: 2019-05-04
 updated: 2019-09-19
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 The viewport is the part of the browser window
 in which your page's content is visible.
 When your page's content width is smaller or larger than the viewport width,

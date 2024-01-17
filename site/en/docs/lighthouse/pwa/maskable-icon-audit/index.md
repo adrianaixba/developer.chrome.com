@@ -6,6 +6,10 @@ description: |
 date: 2020-05-06
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 [Maskable icons][guide] is a new icon format that ensures that your PWA icon looks
 great on all Android devices. On newer Android devices, PWA icons that don't follow
 the maskable icon format are given a white background. When you use a maskable

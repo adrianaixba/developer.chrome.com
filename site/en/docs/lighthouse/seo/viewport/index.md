@@ -8,10 +8,6 @@ date: 2019-05-02
 updated: 2019-08-20
 ---
 
-{% Aside 'caution' %}
-PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
-{% endAside %}
-
 Many search engines rank pages based on how mobile-friendly they are.
 Without a [viewport meta tag](https://developer.mozilla.org/docs/Web/HTML/Viewport_meta_tag),
 mobile devices render pages at typical desktop screen widths and then scale the

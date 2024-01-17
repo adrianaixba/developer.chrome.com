@@ -8,6 +8,10 @@ date: 2019-05-04
 updated: 2022-12-03
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 Registering a [service worker](https://web.dev/articles/service-workers-cache-storage)
 is the first step towards enabling key [Progressive Web App (PWA)](https://web.dev/explore/progressive-web-apps#make-it-installable) features:
 

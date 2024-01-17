@@ -8,6 +8,10 @@ date: 2019-05-04
 updated: 2019-09-19
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 Quick page transitions are key to how users perceive the performance of your
 [Progressive Web App (PWA)](https://web.dev/explore/progressive-web-apps#make-it-installable).
 Transitions should feel snappy, even on a slow network.

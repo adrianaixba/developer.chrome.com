@@ -9,6 +9,10 @@ codelabs:
   - codelab-service-workers
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 The [Core Progressive Web App checklist](https://web.dev/pwa-checklist/#core) says that a PWA
 should provide a custom offline page. The [Optimial Progressive Web App checklist](https://web.dev/pwa-checklist/#optimal)
 says that a PWA should provide an offline experience where the PWA works the same offline as

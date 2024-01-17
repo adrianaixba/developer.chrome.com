@@ -9,6 +9,10 @@ date: 2019-05-04
 updated: 2022-01-25
 ---
 
+{% Aside 'caution' %}
+PWA testing in Lighthouse is deprecated. For more information on its deprecation see [Chrome’s updated Installability Criteria](https://developer.chrome.com/blog/update-install-criteria). For guidance on testing, refer to the [PWA documentation](https://developer.chrome.com/docs/devtools/progressive-web-apps/).
+{% endAside %}
+
 Installability is a core requirement of [Progressive Web Apps (PWAs)](https://web.dev/explore/progressive-web-apps#make-it-installable).
 By prompting users to install your PWA, you allow them to add it to their home screens.
 Users who add apps to home screens engage with those apps more frequently.
